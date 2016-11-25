@@ -1,0 +1,8 @@
+com.teleca.RSSTestReader.Activity
+com.teleca.RSSTestReader.BroadcastReceivers
+com.teleca.RSSTestReader.ContentProvider
+com.teleca.RSSTestReader.CursorAdapter
+com.teleca.RSSTestReader.Feeds
+com.teleca.RSSTestReader.Parser
+com.teleca.RSSTestReader.RSSMessages
+com.teleca.RSSTestReader.Service

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_width="match_parent"
+  android:layout_height="match_parent">
+    <TableLayout android:id="@+id/tableLayout1" android:layout_width="fill_parent" android:layout_height="match_parent" android:background="@drawable/sun">
+        <TextView android:layout_height="wrap_content" android:id="@+id/textView2" android:layout_width="wrap_content" android:text="Feed list:"></TextView>
+<ScrollView android:id="@+id/ScrollView01"
+android:layout_width="fill_parent"
+android:layout_height="160px">
+<LinearLayout android:id="@+id/LinearLayout02"
+android:layout_width="wrap_content"
+android:layout_height="160px"
+android:orientation="vertical">
+        <ListView android:layout_height="160px" android:layout_width="match_parent" android:id="@+id/feedlist" android:scrollbars="vertical"></ListView>
+</LinearLayout>
+</ScrollView>
+        <TextView android:layout_height="wrap_content" android:layout_width="wrap_content" android:id="@+id/title" android:text="Name:"></TextView>
+        <EditText android:id="@+id/edTitle" android:layout_height="wrap_content" android:layout_width="wrap_content"></EditText>
+        <TextView android:layout_height="wrap_content" android:layout_width="wrap_content" android:id="@+id/url" android:text="RSS URL:"></TextView>
+        <EditText android:id="@+id/edUrl" android:layout_height="wrap_content" android:layout_width="wrap_content" android:text="http://"></EditText>
+        <LinearLayout android:id="@+id/linearLayout1" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <Button android:layout_width="wrap_content" android:layout_height="wrap_content" android:id="@+id/add" android:background="@drawable/add"></Button>
+            <Button android:layout_width="wrap_content" android:layout_height="wrap_content" android:id="@+id/update" android:background="@drawable/update"></Button>
+            <Button android:layout_width="wrap_content" android:layout_height="wrap_content" android:id="@+id/delete" android:background="@drawable/delete"></Button>
+            <Button android:layout_width="wrap_content" android:layout_height="wrap_content" android:id="@+id/ok" android:background="@drawable/ok"></Button>
+        </LinearLayout>
+        <Button android:layout_height="wrap_content" android:layout_width="wrap_content" android:id="@+id/cancel" android:drawableLeft="@drawable/cancel" android:text="Cancel" android:visibility="invisible"></Button>
+    </TableLayout>
+</LinearLayout>

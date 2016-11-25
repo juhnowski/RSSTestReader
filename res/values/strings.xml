@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hello">RSSTestReaderActivity...</string>
+    <string name="app_name">RSSTestReader</string>
+    <string name="rss_edit">Edit RSS list</string>
+    <string name="rss_refresh">Refresh news list</string>
+    <string name="rssupdate_service_started">RSS Update Service started</string>
+</resources>
